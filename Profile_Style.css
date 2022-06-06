@@ -1,0 +1,372 @@
+
+
+
+.ProfilePage_Box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height:100%;
+    padding: 0px 5px 0px 5px ;
+    
+}
+
+
+
+.right_Side{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:65%;
+    margin-left: 10px;
+}
+
+.left_Side{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 35%;
+}
+
+
+#Sorularim,#Cevaplarim{
+    width:100%;
+    max-width: 650px;
+    height: 100%;
+}
+
+
+
+#Cevaplarim{
+    display: none;
+}
+
+
+
+.ProfilePage_Containers{
+     display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    margin: 0px 0px 10px 0px;
+     min-height: 100px; 
+       width: auto;
+       height: auto;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #E8E9EC;
+    overflow: hidden;
+    border-radius: 10px;  
+    padding:10px;  
+    width: 100%;
+     max-width: 650px; 
+
+}
+
+
+
+.ProfilePage_Containers_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: auto;
+    min-height:50px;
+    bottom: 0px;
+    order: 5;
+    overflow: hidden;
+
+}
+
+
+
+
+
+#ProfileDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    /* background-color:#2D3138; */
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width:100%;
+    max-width: 280px;
+    text-align: center;
+    
+}
+
+#ProfileDiv div{
+    margin: 5px 0px 5px 0px;
+}
+
+
+.simpleHover:hover{
+    background-color: #E8E9EC;
+    border-radius: 20px;
+}
+
+
+
+.Pic_hover_div{
+    position:absolute;
+    top: 0;
+     width: 150;
+    height: 150;
+    background-size: cover;
+    box-sizing:content-box;
+    border-width: 5px;
+    border-color:#E8E9EC;
+    border-style:solid;
+    border-radius:50%;
+    box-sizing:content-box;
+    display: none;
+    background:rgb(0,0,0,0.6);
+       flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit_circle{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.profileMenu{
+    width:100%;
+    max-width: 280px;
+    background-color: #8b2232;
+    min-height: 20px;
+     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Half_Menu{
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Half_Menu:hover{
+    background: rgb(0,0,0,0.6);
+
+}
+
+
+#Profile_Info_Edit{
+ position: relative;
+    display: none;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 700px;
+    min-height: 235px;
+    width: auto;
+    height: auto;
+    background-color:#2D3138;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+
+#Profile_Info_Edit label{
+    margin: 20px;
+    font-size: 18px;
+    font-family: helvetica;
+
+}
+
+.ProfileInputs{
+     outline: none;
+      font-size: 18px;
+   min-width: 270px;
+    min-height: 50px;
+    border-radius: 5PX;
+    background-color:#D9DBE0;
+    color: black;
+    padding-left: 10px;
+      overflow: hidden;
+}
+
+
+
+
+.ProfileMenuButton{
+  background-color:white ;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+    border-style: solid;
+    border-color:#8B2232  ;
+    border-width: 2px;
+    border-radius: 40px 100px 0px 40px;
+    width: 140px;
+    height: 36px;
+    cursor: pointer;
+    
+
+}
+
+
+
+.profilePicDiv{
+    width: 150;
+    height: 150;
+    border-radius:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing:content-box;
+    border-width: 5px;
+    border-color:#E8E9EC;
+    border-style:solid;
+    
+    
+}
+
+.turnHover:hover .Pic_hover_div{
+     transition-duration: .3s;
+    display: flex;
+}
+
+
+
+.bottom_border_Div{
+    border-bottom-style: solid;
+    border-bottom-width: 3;
+    border-bottom-color:#8b2232  ;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+
+
+
+.textareaProfile{
+    width: 95%;
+     font-size: 17px;
+     font-family:Arial;
+    text-align: left;
+    /* background-color: white; */
+    background-color: wheat;
+    overflow: hidden;
+    padding: 10px;
+     border-radius: 10px; 
+     word-wrap: break-word;
+     word-wrap: break-word;
+}
+
+
+
+#textareaProfileEdit{
+     outline: none;
+    max-width:360px ;
+    min-width:360px ;
+    max-height: 170px;
+     font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    resize: none;
+    background-color: #E8E9EC;
+    padding: 10px;
+}
+
+.info h4{
+    margin: 10px 0px 10px 0px;
+    
+}
+
+
+
+.own_info,.school_info{
+    color: #E8E9EC;
+    display: inline;
+}
+
+
+
+@media (max-width:970px){
+
+.ProfilePage_Box{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    height:100%;
+
+
+}
+
+
+.right_Side{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+    width:100%;
+    margin-left: 0px;
+}
+
+.left_Side{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#ProfileDiv{
+    width:100%;
+    max-width: 600px;
+
+    
+}
+
+.profileMenu{
+    width:100%;
+    max-width: 600px;
+   
+}
+
+#Sorularim,#Cevaplarim{
+   margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+}
+
+

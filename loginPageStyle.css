@@ -1,0 +1,154 @@
+   *{
+    font-family: 'Segoe UI';
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+     background-color: #2D3138; 
+    margin: 0;
+    padding: 0px 10px 50px 10px ;
+}
+
+
+#rectangle{
+    position: relative;
+    margin: 10px;
+    margin: auto;
+    top: 60px;
+    max-width: 430px;
+    background-color: white;
+    border-radius: 10px;
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   width: 100%;
+}
+
+
+
+.container img{
+    width: 90;
+    height: 90;
+}
+
+
+.container input{
+    font-size: 16px;
+   min-width: 270px;
+    min-height: 55px;
+    border: none;
+     border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    padding: 10px 25px 10px 10px;
+    color: black;
+    background-color:#D9DBE0;
+    overflow: hidden;
+    font-family: 'Segoe UI';
+} 
+
+.container div{
+    padding: 18px;
+}
+
+
+
+
+.container h1{
+ color:#8b2232 ;
+   font-family: 'Merienda One', sans-serif;
+        font-size: 22px;
+}
+
+.container h4{
+    font-size: 15px;
+    font-family: helvetica;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+}
+
+.container a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+#createAccount{
+    display: none;
+
+}
+
+
+#changePassword{
+    display: none;
+
+}
+
+
+.Login_Button:hover{
+    /* background-color:#591520; */
+    background-color:#7D2232;
+}
+
+
+
+.Login_Button{
+    font-size: 22px;
+    color: white;
+    min-width: 320px; 
+    min-height: 55px;
+    border: none;
+    background-color: #8b2232;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.icon_div{
+    box-sizing: border-box;
+     max-height: 55px;
+     max-width: 50px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color:#8b2232 ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.material-icons{
+    color: white;
+    
+}
+
+/* 
+
+
+@media (max-width:360px){
+
+.container input{
+    font-size: 16px;
+   min-width: 230px;
+    min-height: 35px;
+    
+} 
+
+}
+
+ */
